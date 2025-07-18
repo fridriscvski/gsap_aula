@@ -5,7 +5,7 @@ import { ScrollTrigger, SplitText} from 'gsap/all';
 import Navbar from './componentes/Navbar'
 import Hero from './componentes/Hero'
 
-gsap.registerPlugin(ScrollTrigger, SplitText);
+gsap.registerPlugin(ScrollTrigger, SplitText); // Plugins que utilizaremo
 
 const App = () => {
   return (
